@@ -6,7 +6,7 @@
 /*   By: pcuadrad <pcuadrad@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/11/19 13:53:04 by pcuadrad          #+#    #+#             */
-/*   Updated: 2019/11/26 12:52:37 by pcuadrad         ###   ########.fr       */
+/*   Updated: 2019/11/25 13:29:15 by pcuadrad         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,12 +24,6 @@
 **	Una vez que hemos desengranado el % pasamos a la funcion executer que se
 **	encargara de chequear que valores tenemos marcados y ejecutar unas
 **	funciones u otras.
-** printf("Zero: %d\n", (*bag)->zero);
-** printf("Width: %d\n", (*bag)->width);
-** printf("Plus: %d\n", (*bag)->plus);
-** printf("Minus: %d\n", (*bag)->minus);
-** printf("Precision: %d\n", (*bag)->precision);
-** printf("Conversion: %c\n", (*bag)->conversion);
 */
 
 int		destructor(char *format, t_printf **bag)

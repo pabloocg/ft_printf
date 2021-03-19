@@ -24,12 +24,6 @@
 **	Una vez que hemos desengranado el % pasamos a la funcion executer que se
 **	encargara de chequear que valores tenemos marcados y ejecutar unas
 **	funciones u otras.
-** printf("Zero: %d\n", (*bag)->zero);
-** printf("Width: %d\n", (*bag)->width);
-** printf("Plus: %d\n", (*bag)->plus);
-** printf("Minus: %d\n", (*bag)->minus);
-** printf("Precision: %d\n", (*bag)->precision);
-** printf("Conversion: %c\n", (*bag)->conversion);
 */
 
 int		destructor(char *format, t_printf **bag)
